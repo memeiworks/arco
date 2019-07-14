@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/arco_logo"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/btn_googlesignup"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/google_signup"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/btn_facebooksignup"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/fb_signup"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/OR"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/txtsignup_fullname"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="@string/full_name"
+                android:inputType="textPersonName"
+                android:focusableInTouchMode="true"
+                android:drawableStart="@drawable/ic_person_black_24dp"/>
+            <EditText
+                android:id="@+id/txtsignup_email"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/Email"
+                android:inputType="textEmailAddress"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="true"
+                android:drawableStart="@drawable/ic_email_black_24dp"/>
+            <EditText
+                android:id="@+id/txtsignup_phoneno"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="true"
+                android:maxLength="11"
+                android:drawableStart="@drawable/ic_phone_android_black_24dp"/>
+            <EditText
+                android:id="@+id/txt_signuppass"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/txtsignup_pass"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:focusableInTouchMode="true"
+                android:drawableStart="@drawable/ic_verified_user_black_24dp"/>
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:text="@string/signup"/>
+
+
+            <TextView
+                android:id="@+id/login_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_user"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="16sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

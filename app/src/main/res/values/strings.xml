@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SampleJava</string>
+    <string name="google_signup">Signup with Google</string>
+    <string name="fb_signup">Signup with Facebook</string>
+    <string name="email_signup">Signup with Email</string>
+    <string name="already_user">Already have an account? <b>Login</b></string>
+    <string name="terms">By signing up, you agree to our <b>Terms and Conditions</b> and <b>Privacy Policy</b>.</string>
+    <string name="OR">OR</string>
+    <string name="full_name"> Full Name</string>
+    <string name="Email"> Email</string>
+    <string name="phone_number"> Phone Number</string>
+    <string name="txtsignup_pass"> Password</string>
+    <string name="signup">Signup</string>
+</resources>
